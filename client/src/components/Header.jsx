@@ -48,22 +48,31 @@ function Header() {
             id="navbarNav"
           >
             <ul className="navbar-nav">
-              {/* View Appointment */}
+              {/* Product */}
               <li className="nav-item">
                 <button
-                  onClick={() => handleNavigation("/ViewAppointments")}
+                  onClick={() => handleNavigation("/Products")}
                   className="btn btn-link text-white nav-link"
                 >
-                  View Appointment
+                  Product
                 </button>
               </li>
-              {/* View Commisions */}
+              {/* View Payments */}
               <li className="nav-item">
                 <button
-                  onClick={() => handleNavigation("/ViewCommision")}
+                  onClick={() => handleNavigation("/ViewPayments")}
                   className="btn btn-link text-white nav-link"
                 >
-                  View Commisions
+                  View Payments
+                </button>
+              </li>
+              {/* Completed Orders */}
+              <li className="nav-item">
+                <button
+                  onClick={() => handleNavigation("/CompletedOrders")}
+                  className="btn btn-link text-white nav-link"
+                >
+                  Completed Orders
                 </button>
               </li>
             </ul>

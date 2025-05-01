@@ -31,7 +31,7 @@ function WelcomePage() {
           className="mb-1"
           style={{ fontSize: "1rem", fontWeight: "", color: "#000000" }}
         >
-          Doctor Platform
+          Medical Supplier Platform
         </h4>
 
         <h1
